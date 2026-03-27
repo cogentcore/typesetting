@@ -163,7 +163,7 @@ type BigGlyphMetrics struct {
 
 // Format 1: small metrics, byte-aligned data
 // Format 2: small metrics, bit-aligned data
-type BitmapData1or2 struct {
+type BitmapData1Or2 struct {
 	SmallGlyphMetrics
 	Image []byte `arrayCount:"ToEnd"`
 }

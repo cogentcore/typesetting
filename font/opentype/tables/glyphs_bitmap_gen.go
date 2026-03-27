@@ -119,8 +119,8 @@ func ParseBitmapData19(src []byte) (BitmapData19, int, error) {
 	return item, n, nil
 }
 
-func ParseBitmapData1or2(src []byte) (BitmapData1or2, int, error) {
-	var item BitmapData1or2
+func ParseBitmapData1Or2(src []byte) (BitmapData1Or2, int, error) {
+	var item BitmapData1Or2
 	n := 0
 	if L := len(src); L < 5 {
 		return item, 0, fmt.Errorf("reading BitmapData1or2: "+"EOF: expected length: 5, got %d", L)
