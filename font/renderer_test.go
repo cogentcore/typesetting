@@ -565,6 +565,21 @@ func TestEblcGlyph(t *testing.T) {
 	}
 }
 
+func TestEBDTFormat1Glyph(t *testing.T) {
+	file, err := td.Files.ReadFile("bitmap/simsun.ttc")
+	tu.AssertNoErr(t, err)
+
+	faces, err := ParseTTC(bytes.NewReader(file))
+	tu.AssertNoErr(t, err)
+	font := faces[0]
+	font.SetPpem(12, 12)
+
+	for gid := GID(100); gid < 500; gid++ {
+		glyph, ok := font.GlyphData(gid).(GlyphBitmap)
+		tu.Assert(t, ok && glyph.Format == BlackAndWhiteByteAligned)
+	}
+}
+
 func TestAppleBitmapGlyph(t *testing.T) {
 	filename := "collections/Gacha_9.dfont"
 	f, err := td.Files.ReadFile(filename)
