@@ -3,6 +3,7 @@
 package font
 
 import (
+	"bytes"
 	"testing"
 
 	td "github.com/go-text/typesetting-utils/opentype"
@@ -49,4 +50,16 @@ func TestEBLC(t *testing.T) {
 		_, err = newBitmap(eblc, ebdt)
 		tu.AssertNoErr(t, err)
 	}
+}
+
+func TestEBDTFormat1(t *testing.T) {
+	file, err := td.Files.ReadFile("bitmap/simsun.ttc")
+	tu.AssertNoErr(t, err)
+
+	faces, err := ParseTTC(bytes.NewReader(file))
+	tu.AssertNoErr(t, err)
+	tu.Assert(t, len(faces) == 2)
+	sizes := faces[0].BitmapSizes()
+	tu.Assert(t, len(sizes) == 6)
+	tu.Assert(t, sizes[0].XPpem == 12 && sizes[5].XPpem == 17)
 }
