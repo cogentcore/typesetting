@@ -98,6 +98,9 @@ const (
 	JPG
 	// The [GlyphBitmap.Data] slice stores a TIFF encoded image
 	TIFF
+	// BlackAndWhiteBitAligned is the same as [BlackAndWhite], but
+	// each row is padded to a byte boundary.
+	BlackAndWhiteByteAligned
 )
 
 // BitmapSize expose the size of bitmap glyphs.
@@ -155,6 +158,13 @@ func (bt bitmap) glyphData(gid gID, xPpem, yPpem uint16) (GlyphBitmap, error) {
 	switch subtable.imageFormat {
 	case 17, 18, 19: // PNG
 		out.Format = PNG
+	case 1: // See https://learn.microsoft.com/en-us/typography/opentype/spec/ebdt#format-1-small-metrics-byte-aligned-data
+		out.Format = BlackAndWhiteByteAligned
+		// ensure data length
+		rowL := (out.Width + 7) / 8 // ceil
+		if exp := rowL * out.Height; len(out.Data) < exp {
+			return GlyphBitmap{}, fmt.Errorf("EOF in glyph bitmap: expected %d, got %d", exp, len(out.Data))
+		}
 	case 2, 5:
 		out.Format = BlackAndWhite
 		// ensure data length
