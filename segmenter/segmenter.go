@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
 )
 
 // breakAttr is a flag storing the break properties between two runes of

@@ -1,5 +1,10 @@
 # typesetting
 
+> This is the `cogent` branch of the Cogent Core fork of [go-text/typesetting](https://github.com/go-text/typesetting),
+> with the module path `github.com/cogentcore/typesetting`, so that it can be imported directly. It is the
+> upstream `main` plus pending upstream pull requests (#304, #305), and will be retired once they are merged.
+
+
 This library provides typesetting capabilities in pure Go. It is appropriate for use in GUI applications, and is shared by multiple Go UI toolkits including [Fyne](https://fyne.io), [Gio](https://gioui.org), and [Ebitengine](https://ebitengine.org).
 
 ## Development cycle

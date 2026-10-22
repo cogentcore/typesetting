@@ -8,11 +8,11 @@ import (
 	"sort"
 	"testing"
 
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
+	tu "github.com/cogentcore/typesetting/testutils"
 	hb "github.com/go-text/typesetting-utils/harfbuzz"
 	td "github.com/go-text/typesetting-utils/opentype"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 // wrap td.Files.ReadFile

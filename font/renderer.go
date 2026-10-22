@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 var (

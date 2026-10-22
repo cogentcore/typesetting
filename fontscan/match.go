@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/language"
 )
 
 // Query exposes the intention of an author about the

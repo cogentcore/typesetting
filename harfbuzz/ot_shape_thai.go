@@ -1,8 +1,8 @@
 package harfbuzz
 
 import (
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
-	"github.com/go-text/typesetting/language"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
+	"github.com/cogentcore/typesetting/language"
 )
 
 // ported from harfbuzz/src/hb-ot-shape-complex-thai.cc Copyright © 2010,2012  Google, Inc.  Behdad Esfahbod

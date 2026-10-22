@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 // axis records

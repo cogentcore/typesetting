@@ -3,9 +3,9 @@ package harfbuzz
 import (
 	"fmt"
 
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/font"
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 // ported from harfbuzz/src/hb-aat-layout.h  Copyright © 2018 Ebrahim Byagowi, Behdad Esfahbod

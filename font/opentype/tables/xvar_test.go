@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func deHexStr(s string) []byte {

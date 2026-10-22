@@ -6,9 +6,9 @@ import (
 	"bytes"
 	"testing"
 
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	ot "github.com/go-text/typesetting/font/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 // wrap td.Files.ReadFile

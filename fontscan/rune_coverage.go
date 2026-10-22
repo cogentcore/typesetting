@@ -6,8 +6,8 @@ import (
 	"math/bits"
 	"sort"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/language"
 )
 
 // Rune coverage implementation, inspired by the fontconfig FcCharset type.

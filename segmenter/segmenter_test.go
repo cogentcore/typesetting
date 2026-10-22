@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	tu "github.com/go-text/typesetting/testutils"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 type initMode int

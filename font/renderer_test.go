@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func loadFont(t testing.TB, filename string) *Font {

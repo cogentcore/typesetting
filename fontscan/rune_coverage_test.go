@@ -8,9 +8,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/language"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 // newRuneSet builds a set containing the given runes.

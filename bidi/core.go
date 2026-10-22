@@ -1,7 +1,7 @@
 package bidi
 
 import (
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
 )
 
 // This implementation is a port based on the reference implementation found at:

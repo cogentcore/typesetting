@@ -3,8 +3,8 @@ package harfbuzz
 import (
 	"testing"
 
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/cogentcore/typesetting/language"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 // ported from harfbuzz/test/api/test-buffer.c Copyright © 2011  Google, Inc. Behdad Esfahbod

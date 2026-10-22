@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-text/typesetting/font"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/cogentcore/typesetting/font"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 func TestDigest(t *testing.T) {

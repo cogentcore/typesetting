@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/cogentcore/typesetting/font"
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/language"
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/harfbuzz"
 	otTD "github.com/go-text/typesetting-utils/opentype"
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func assertEqualInt(t *testing.T, expected, got int) {

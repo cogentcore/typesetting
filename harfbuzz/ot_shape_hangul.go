@@ -1,9 +1,9 @@
 package harfbuzz
 
 import (
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
 )
 
 // ported from harfbuzz/src/hb-ot-shape-complex-hangul.cc Copyright © 2013  Google, Inc. Behdad Esfahbod

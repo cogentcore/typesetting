@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 type svg []svgDocument

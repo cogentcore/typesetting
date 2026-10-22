@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math"
 
-	ot "github.com/go-text/typesetting/font/opentype"
+	ot "github.com/cogentcore/typesetting/font/opentype"
 )
 
 // PathBounds represents a control bounds for

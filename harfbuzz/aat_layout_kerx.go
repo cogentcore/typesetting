@@ -3,8 +3,8 @@ package harfbuzz
 import (
 	"fmt"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 func (c *aatApplyContext) applyKernx(kerx font.Kernx, accelerators []kernxSubtableAccelerator) {

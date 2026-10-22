@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	ps "github.com/go-text/typesetting/font/cff/interpreter"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	ps "github.com/cogentcore/typesetting/font/cff/interpreter"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 // CFF2 represents a parsed 'CFF2' Opentype table.

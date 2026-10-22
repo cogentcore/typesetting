@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/language"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 // Unit tests for glyph advance Widths and extents of TrueType variable fonts
@@ -268,7 +268,7 @@ func TestNames(t *testing.T) {
 }
 
 func TestUnifont(t *testing.T) {
-	// https://github.com/go-text/typesetting/issues/140
+	// https://github.com/cogentcore/typesetting/issues/140
 	ft := openFontFileTT(t, "bitmap/unifont-15.1.05.otf")
 
 	buf := NewBuffer()

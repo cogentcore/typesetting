@@ -1,8 +1,8 @@
 package shaping
 
 import (
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/harfbuzz"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/harfbuzz"
 )
 
 // adjust the cache size of the zero value, used by default

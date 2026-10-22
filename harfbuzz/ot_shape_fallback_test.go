@@ -3,7 +3,7 @@ package harfbuzz
 import (
 	"testing"
 
-	"github.com/go-text/typesetting/font"
+	"github.com/cogentcore/typesetting/font"
 )
 
 func TestRecategorize(t *testing.T) {

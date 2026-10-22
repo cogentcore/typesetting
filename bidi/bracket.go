@@ -3,7 +3,7 @@ package bidi
 import (
 	"sort"
 
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
 )
 
 // This file contains a port of the reference implementation of the

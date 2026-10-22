@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	tu "github.com/go-text/typesetting/testutils"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 // newIntSet builds a set containing the given runes.

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/cogentcore/typesetting/font"
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/harfbuzz"
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 // This is the main test suite for harfbuzz, which parses and runs

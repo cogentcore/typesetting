@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
-	tu "github.com/go-text/typesetting/testutils"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
+	tu "github.com/cogentcore/typesetting/testutils"
 )
 
 // Test created from https://github.com/golang/go/issues/69819

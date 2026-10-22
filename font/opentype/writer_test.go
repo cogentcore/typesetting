@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"testing"
 
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestWrite(t *testing.T) {

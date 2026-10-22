@@ -3,10 +3,10 @@ package harfbuzz
 import (
 	"testing"
 
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/language"
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/harfbuzz"
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 // ported from harfbuzz/perf

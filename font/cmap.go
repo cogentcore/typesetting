@@ -8,7 +8,7 @@ import (
 	"sort"
 	"unicode"
 
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 // This file implements the logic needed to use a cmap.

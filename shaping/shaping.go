@@ -3,10 +3,10 @@
 package shaping
 
 import (
-	"github.com/go-text/typesetting/di"
-	ft "github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/harfbuzz"
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
+	"github.com/cogentcore/typesetting/di"
+	ft "github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/harfbuzz"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
 	"golang.org/x/image/math/fixed"
 )
 

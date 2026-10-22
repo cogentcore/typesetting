@@ -5,8 +5,8 @@ package tables
 import (
 	"testing"
 
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestParseKern(t *testing.T) {

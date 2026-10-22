@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 const maxContextLength = 64

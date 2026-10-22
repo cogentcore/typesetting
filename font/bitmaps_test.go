@@ -5,14 +5,14 @@ package font
 import (
 	"bytes"
 	"encoding/binary"
-	ot "github.com/go-text/typesetting/font/opentype"
+	ot "github.com/cogentcore/typesetting/font/opentype"
 	"os"
 	"sort"
 	"testing"
 
+	"github.com/cogentcore/typesetting/font/opentype/tables"
+	tu "github.com/cogentcore/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestBloc(t *testing.T) {

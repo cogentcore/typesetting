@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	ucd "github.com/go-text/typesetting/internal/unicodedata"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
+	ucd "github.com/cogentcore/typesetting/internal/unicodedata"
 )
 
 // ported from harfbuzz/src/hb-ot-layout-gsubgpos.hh Copyright © 2007,2008,2009,2010  Red Hat, Inc. 2010,2012  Google, Inc.  Behdad Esfahbod

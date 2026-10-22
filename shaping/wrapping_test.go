@@ -10,12 +10,12 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/go-text/typesetting/bidi"
-	"github.com/go-text/typesetting/di"
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
-	"github.com/go-text/typesetting/segmenter"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/cogentcore/typesetting/bidi"
+	"github.com/cogentcore/typesetting/di"
+	"github.com/cogentcore/typesetting/font"
+	"github.com/cogentcore/typesetting/language"
+	"github.com/cogentcore/typesetting/segmenter"
+	tu "github.com/cogentcore/typesetting/testutils"
 	"golang.org/x/image/font/gofont/goregular"
 	"golang.org/x/image/math/fixed"
 )

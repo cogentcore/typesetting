@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sync"
 
-	ps "github.com/go-text/typesetting/font/cff/interpreter"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	ps "github.com/cogentcore/typesetting/font/cff/interpreter"
+	ot "github.com/cogentcore/typesetting/font/opentype"
+	"github.com/cogentcore/typesetting/font/opentype/tables"
 )
 
 // a Machine is about 4KB, so LoadGlyph reuses one instead of allocating it per glyph
